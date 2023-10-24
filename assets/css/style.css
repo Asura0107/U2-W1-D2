@@ -353,25 +353,25 @@ footer a {
 
   .far {
     z-index: 9;
-    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.607);
+    border: 2px white;
+    border-radius: 10px;
+    position: fixed;
+    right: 0;
     width: 50px;
     height: 50px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px 0 grey;
   }
 
   .fa-caret-square-up {
-    top: 750px;
-    right: 0;
-    position: fixed;
+    top: 770px;
   }
   .fa-calendar-alt {
     top: 700px;
-    right: 0;
-    position: fixed;
   }
   .fa-plus-square {
-    top: 650px;
-    right: 0;
-    position: fixed;
+    top: 630px;
   }
   aside div {
     position: relative;
